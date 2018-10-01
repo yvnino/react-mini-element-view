@@ -9,9 +9,8 @@ npm run start:prod - Development prod
 npm run test - Run unitests 
 npm run eslint - Run static analyzer 
 
-```
 
-### Component properties
+## Component properties
 
 Property        |       Type         |       Description
 :---------------|:-------------------|:--------------------------------
