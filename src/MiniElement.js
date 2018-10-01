@@ -29,6 +29,10 @@ export class MiniElement extends React.Component {
       document.removeEventListener('mouseup', this.onDragDone);
     }
   }
+  
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.onScroll);
+  }
 
   onScroll = () => {
     if (!this.originalElm) return false;
