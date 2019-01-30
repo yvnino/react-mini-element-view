@@ -1,0 +1,45 @@
+{
+  "name": "react-mini-element-view-example",
+  "version": "1.0.0",
+  "description": "react-mini-element-view-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js --display-error-details",
+    "start:prod": "set NODE_ENV=prod& node server.js --display-error-details",
+    "start:dev": "set NODE_ENV=dev& node server.js --display-error-details",
+    "generate_dev_bundle": "webpack --config webpack.config.dev.js",
+    "generate_prod_bundle": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Yoav Nino",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "6.6.1",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.21.0",
+    "babel-loader": "6.2.10",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.22.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^2.0.1",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "2.30.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "3.0.0"
+  },
+  "dependencies": {
+    "lodash": ">=4.17.4",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-mini-element-view": "^1.0.0",
+    "react-hot-loader": "^3.1.3"
+  },
+  "config": {
+    "host": "0.0.0.0",
+    "port": 3024
+  }
+}

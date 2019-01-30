@@ -35,7 +35,7 @@ const App = () => (
       </div>
     </MiniElement>
     <div style={ { color: '#000000' } }>
-      LIBRARY
+      SCROLL DOWN PLEASE
     </div>
   </div>
 );

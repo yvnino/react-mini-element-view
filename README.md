@@ -1,16 +1,36 @@
 # react-mini-element-view
 React HOC for mini view of the element when it out from the screen view
 
-Live Demo: https://yvnino.github.io/react-mini-element-view/example/dist/
+Live Demo: https://yvnino.github.io/react-mini-element-view/public/dist/
 
-## Getting Started
+## install
 
-Follow the next steps to run the app locally:
-npm run start:dev - Development env
-npm run start:prod - Development prod
-npm run test - Run unitests 
-npm run eslint - Run static analyzer 
+```
+npm install --save react-mini-element-view
+```
 
+## usage
+
+```
+import MiniElement from 'react-mini-element-view';
+
+<MiniElement 
+  initialPosition={ {
+      right: '60px',
+      bottom: '60px'
+  } }
+  onChangeViewMode={ (elementType) => {
+    console.log('Element Type', elementType);
+  } }
+  miniElementStyle={ {
+    width: '80px',
+    height: '80px'
+  } }
+  draggable>
+  <video />
+</MiniElement>
+
+```
 
 ## Component properties
 
