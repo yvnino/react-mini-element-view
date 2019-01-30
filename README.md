@@ -1,7 +1,7 @@
 # react-mini-element-view
 React HOC for mini view of the element when it out from the screen view
 
-Live Demo: https://yvnino.github.io/react-mini-element-view/public/
+Live Demo: https://yvnino.github.io/react-mini-element-view/example/public/
 
 ## install
 
